@@ -1,0 +1,17 @@
+{
+  "name": "aoc-ts-2022",
+  "version": "1.0.0",
+  "description": "Soultions for advent of code 2022",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev-demon": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "dev": "tsc && node dist/index.js"
+  },
+  "author": "Ahmed Soltan",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.3"
+  }
+}
